@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --left-color: #68d391; /* Example left color */
+    --right-color: #4299e1; /* Example right color */
+  }
+  .gradient-hover {
+    background: linear-gradient(to right, var(--left-color), var(--right-color));
+  }
+  
+  /* Button styling */
+  .gradient-button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--left-color), var(--right-color));
+    transition: background 0.3s ease;
+  }
+  
+  /* Hover effect: Switch colors */
+  .gradient-button:hover {
+    background: linear-gradient(to right, var(--right-color), var(--left-color));
+  }
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/fonts/LeagueSpartan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'League Spartan', sans-serif;
+  }
+  
