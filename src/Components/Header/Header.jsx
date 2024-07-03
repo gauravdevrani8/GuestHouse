@@ -18,7 +18,7 @@ const Header = () => {
     <>
       <nav className="fixed w-full px-6 md:px-40 backdrop-blur-lg bg-white/80 p-4 z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-gray-700 text-2xl md:text-4xl font-playfair-display font-extralight">KS</h1>
+          <h1 className="text-gray-700 text-2xl md:text-4xl font-cinzel font-extralight">KS</h1>
           <div className="hidden md:flex flex-1 justify-center">
             <ul className="flex items-center space-x-4 md:space-x-6 font-league-spartan">
               <li className="relative group">
