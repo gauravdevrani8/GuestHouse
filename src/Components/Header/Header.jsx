@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="fixed w-full px-6 md:px-40 backdrop-blur-lg bg-white/80 p-4 z-50">
+      <nav className="fixed w-full h-fit px-6 md:px-40 backdrop-blur-lg bg-white/80 p-4 z-50">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-gray-700 text-2xl md:text-4xl font-cinzel font-extralight">KS</h1>
           <div className="hidden md:flex flex-1 justify-center">
@@ -121,7 +121,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className='w-full h-20 bg-white'></div>
+      <div className='w-full h-14 md:h-20 bg-white'></div>
     </>
   );
 };

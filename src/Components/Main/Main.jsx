@@ -65,7 +65,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="relative h-36 md:h-[75vh] rounded-2xl overflow-hidden">
+      <div className="relative w-screen h-60 md:h-[75vh] rounded-lg md:rounded-2xl overflow-hidden">
         <img src={heroImage} alt="ks Guest Rooms" className="absolute inset-0 object-cover w-full h-full transition-opacity duration-500 hover:opacity-80" />
         <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-60"></div>
         <div className="absolute inset-10 flex items-center justify-center text-center text-white z-10">
